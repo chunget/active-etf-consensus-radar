@@ -1,0 +1,10 @@
+[
+  { "id": "us-cpi", "region": "US", "name": "美國 CPI 年增率", "actual": 2.7, "expected": 2.9, "previous": 3.0, "unit": "%", "releasedAt": "2026-09-16T20:30:00+08:00", "fresh": true, "kind": "inflation" },
+  { "id": "us-core-cpi", "region": "US", "name": "美國核心 CPI", "actual": 3.1, "expected": 3.0, "previous": 3.1, "unit": "%", "releasedAt": "2026-09-16T20:30:00+08:00", "fresh": true, "kind": "inflation" },
+  { "id": "us-payrolls", "region": "US", "name": "美國非農就業", "actual": 188, "expected": 165, "previous": 141, "unit": "K", "releasedAt": "2026-09-15T20:30:00+08:00", "fresh": false, "kind": "jobs" },
+  { "id": "us-yield", "region": "US", "name": "美國 10 年期殖利率", "actual": 3.86, "expected": 3.94, "previous": 4.03, "unit": "%", "releasedAt": "2026-09-16T21:00:00+08:00", "fresh": true, "kind": "yield" },
+  { "id": "tw-export", "region": "TW", "name": "台灣出口年增率", "actual": 9.8, "expected": 7.1, "previous": 6.4, "unit": "%", "releasedAt": "2026-09-16T16:00:00+08:00", "fresh": true, "kind": "exports" },
+  { "id": "tw-orders", "region": "TW", "name": "台灣外銷訂單", "actual": 11.2, "expected": 8.5, "previous": 7.9, "unit": "%", "releasedAt": "2026-09-15T16:00:00+08:00", "fresh": false, "kind": "exports" },
+  { "id": "vix", "region": "GLOBAL", "name": "VIX 波動率", "actual": 16.4, "expected": 18.0, "previous": 19.2, "unit": "", "releasedAt": "2026-09-16T22:00:00+08:00", "fresh": true, "kind": "vol" },
+  { "id": "dxy", "region": "GLOBAL", "name": "美元指數", "actual": 98.6, "expected": 99.2, "previous": 99.8, "unit": "", "releasedAt": "2026-09-16T22:00:00+08:00", "fresh": false, "kind": "dollar" }
+]

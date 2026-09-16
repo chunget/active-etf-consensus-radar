@@ -1,0 +1,12 @@
+[
+  { "id": "advanced-process", "name": "AI先進製程", "keywords": ["台積電", "精測", "NVIDIA", "Broadcom"] },
+  { "id": "ai-server", "name": "AI Server", "keywords": ["台積電", "奇鋐", "廣達", "鴻海", "NVIDIA"] },
+  { "id": "asic", "name": "ASIC", "keywords": ["世芯-KY", "Broadcom"] },
+  { "id": "thermal", "name": "散熱", "keywords": ["奇鋐", "健策"] },
+  { "id": "financials", "name": "金融", "keywords": ["富邦金", "國泰金", "JPMorgan Chase"] },
+  { "id": "rate-cut", "name": "降息交易", "keywords": ["富邦金", "國泰金", "Microsoft"] },
+  { "id": "power", "name": "能源電力", "keywords": ["台達電", "Constellation Energy", "Tesla"] },
+  { "id": "aerospace", "name": "航太", "keywords": ["GE Aerospace", "Palantir"] },
+  { "id": "storage", "name": "儲存", "keywords": ["Micron"] },
+  { "id": "phone", "name": "手機復甦", "keywords": ["鴻海"] }
+]
