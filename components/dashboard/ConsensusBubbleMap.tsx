@@ -24,8 +24,8 @@ export function ConsensusBubbleMap({ stocks, onPick }: { stocks: RankedStock[]; 
         </div>
         <span className="text-xs text-[#939BAD]">大小代表可能共識 ETF 檔數</span>
       </div>
-      <div className="h-[320px]">
-        {mounted ? <ResponsiveContainer width="100%" height="100%">
+      <div className="h-[320px] min-w-0">
+        {mounted ? <ResponsiveContainer width="100%" height="100%" minWidth={0}>
           <ScatterChart margin={{ top: 10, right: 4, bottom: 4, left: 4 }}>
             <ZAxis dataKey="z" range={[120, 980]} />
             <Tooltip

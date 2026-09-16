@@ -14,6 +14,7 @@ export function trendMark(trend: string, delta = 0) {
 
 export function nowLabel(value: string) {
   return new Intl.DateTimeFormat("zh-TW", {
+    timeZone: "Asia/Taipei",
     month: "2-digit",
     day: "2-digit",
     hour: "2-digit",
