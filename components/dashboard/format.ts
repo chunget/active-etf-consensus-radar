@@ -1,9 +1,9 @@
 export const horizons = [1, 3, 5, 10, 20] as const;
 
 export function eventRead(actual: number, expected: number) {
-  if (actual > expected) return "高於預期";
-  if (actual < expected) return "低於預期";
-  return "符合預期";
+  if (actual > expected) return "高於模型基準";
+  if (actual < expected) return "低於模型基準";
+  return "符合模型基準";
 }
 
 export function trendMark(trend: string, delta = 0) {

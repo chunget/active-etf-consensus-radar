@@ -45,6 +45,8 @@ function signalFromEvents(events: MacroEvent[], usePrevious = false): Signal {
       out.riskOn -= s * 1.2; out.defensive += s * 0.7; out.growth -= s * 0.3;
     } else if (event.kind === "dollar") {
       out.dollarWeak -= s; out.growth -= s * 0.35; out.energy -= s * 0.2;
+    } else if (event.kind === "breadth") {
+      out.riskOn += s * 0.9; out.cyclical += s * 0.45; out.growth += s * 0.35;
     }
   }
   const damp = 1 / (1 + 0.12 * Math.max(0, events.length - 1));
@@ -208,7 +210,7 @@ export async function predict(input: PredictionRequest) {
   const summary = `模型推演顯示，主動 ETF 經理人可能偏向${industryRanking.slice(0, 2).map((i) => i.name).join("、")}，${lead}的共同配置傾向較明顯。`;
 
   return {
-    date: input.date ?? "2026-09-16",
+    date: input.date ?? new Date().toISOString().slice(0, 10),
     updatedAt: new Date().toISOString(),
     horizon: input.forecastHorizon,
     usedEvents: eventsForRun.map(({ id, name, region, actual, expected, previous, unit, fresh }) => ({ id, name, region, actual, expected, previous, unit, fresh })),

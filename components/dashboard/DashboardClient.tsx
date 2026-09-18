@@ -26,7 +26,7 @@ type RankData = {
 
 const steps = ["正在重新推演…", "正在比對投資風格…", "正在尋找共同配置方向…"];
 
-export function DashboardClient({ initialPrediction, macros, etfs, rank }: { initialPrediction: Prediction; macros: MacroEvent[]; etfs: Etf[]; rank: RankData }) {
+export function DashboardClient({ initialPrediction, macros, etfs, rank, dataUpdatedAt, dataSources }: { initialPrediction: Prediction; macros: MacroEvent[]; etfs: Etf[]; rank: RankData; dataUpdatedAt: string; dataSources: string[] }) {
   const [tab, setTab] = useState("經理人共識");
   const [prediction, setPrediction] = useState(initialPrediction);
   const [rankMode, setRankMode] = useState<"increases" | "decreases">("increases");
@@ -54,7 +54,7 @@ export function DashboardClient({ initialPrediction, macros, etfs, rank }: { ini
       await new Promise((resolve) => setTimeout(resolve, 560));
     }
     const next = await predict({
-      date: "2026-09-16",
+      date: prediction.date,
       selectedEvents: nextEvents,
       forecastHorizon: nextHorizon,
       themeId,
@@ -70,8 +70,8 @@ export function DashboardClient({ initialPrediction, macros, etfs, rank }: { ini
     runPredict(appliedEvents, next);
   }
 
-  const increaseMax = Math.max(...rank.increases.map((row) => Math.abs(row.change)));
-  const decreaseMax = Math.max(...rank.decreases.map((row) => Math.abs(row.change)));
+  const increaseMax = Math.max(1, ...rank.increases.map((row) => Math.abs(row.change)));
+  const decreaseMax = Math.max(1, ...rank.decreases.map((row) => Math.abs(row.change)));
   const activeRankRows = rankMode === "increases" ? rank.increases : rank.decreases;
   const activeRankMax = rankMode === "increases" ? increaseMax : decreaseMax;
 
@@ -80,7 +80,7 @@ export function DashboardClient({ initialPrediction, macros, etfs, rank }: { ini
       <AppHeader onSearch={() => setSearchOpen(true)} />
       <div className="mx-auto max-w-[1480px] px-4 py-4 sm:px-6">
         <div className="mb-4 flex gap-2 overflow-x-auto">
-          {["加減碼排行榜", "主題觀點", "經理人共識"].map((item) => (
+          {["動能排行榜", "主題觀點", "經理人共識"].map((item) => (
             <button key={item} onClick={() => setTab(item)} className={`min-h-11 rounded-[10px] border px-3 text-sm ${tab === item ? "border-[#FFC83D] text-[#FFC83D]" : "border-[#3B3E45] text-[#939BAD]"}`}>
               {item}
             </button>
@@ -108,7 +108,7 @@ export function DashboardClient({ initialPrediction, macros, etfs, rank }: { ini
 
             <section className="space-y-4">
               <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-[#939BAD]">
-                <span>即時連線中 / 更新時間 {nowLabel(prediction.updatedAt)}</span>
+                <span>每日更新 / 市場資料 {prediction.date} / 更新時間 {nowLabel(dataUpdatedAt)}</span>
                 <span>目前套用事件: {prediction.usedEvents.map((event) => event.name).join("、")}</span>
               </div>
               <MarketRegimeCard prediction={prediction} pendingCount={pendingCount} appliedCount={appliedEvents.length} />
@@ -146,13 +146,13 @@ export function DashboardClient({ initialPrediction, macros, etfs, rank }: { ini
           </div>
         )}
 
-        {tab === "加減碼排行榜" && (
+        {tab === "動能排行榜" && (
           <section className="mx-auto max-w-3xl rounded-[10px] border border-[#3B3E45] bg-[#1F2024] p-4">
-            <h1 className="text-center text-2xl font-bold">加減碼排行榜</h1>
+            <h1 className="text-center text-2xl font-bold">市場動能排行</h1>
             <p className="mt-1 text-center text-[#FFC83D]">{rank.date}（{rank.period}）</p>
             <div className="mx-auto mt-4 grid max-w-xs grid-cols-2 gap-2">
-              <button onClick={() => setRankMode("increases")} className={`min-h-11 rounded-[10px] border text-sm ${rankMode === "increases" ? "border-[#E32B30] text-[#E32B30]" : "border-[#3B3E45] text-[#939BAD]"}`}>加碼</button>
-              <button onClick={() => setRankMode("decreases")} className={`min-h-11 rounded-[10px] border text-sm ${rankMode === "decreases" ? "border-[#38CDB0] text-[#38CDB0]" : "border-[#3B3E45] text-[#939BAD]"}`}>減碼</button>
+              <button onClick={() => setRankMode("increases")} className={`min-h-11 rounded-[10px] border text-sm ${rankMode === "increases" ? "border-[#E32B30] text-[#E32B30]" : "border-[#3B3E45] text-[#939BAD]"}`}>走強</button>
+              <button onClick={() => setRankMode("decreases")} className={`min-h-11 rounded-[10px] border text-sm ${rankMode === "decreases" ? "border-[#38CDB0] text-[#38CDB0]" : "border-[#3B3E45] text-[#939BAD]"}`}>相對走弱</button>
             </div>
             <div className="mt-5 space-y-3">
               {activeRankRows.map((row) => (
@@ -166,7 +166,7 @@ export function DashboardClient({ initialPrediction, macros, etfs, rank }: { ini
                 </div>
               ))}
             </div>
-            <p className="mt-5 text-xs leading-5 text-[#939BAD]">此頁為已公布籌碼資料，與共識推演分開呈現；不提供投資建議或目標價。</p>
+            <p className="mt-5 text-xs leading-5 text-[#939BAD]">此頁使用近 20 個交易日價格動能排序，並非基金實際持股異動；不提供投資建議或目標價。</p>
           </section>
         )}
 
@@ -183,7 +183,7 @@ export function DashboardClient({ initialPrediction, macros, etfs, rank }: { ini
           </section>
         )}
       </div>
-      <footer className="mx-auto max-w-[1480px] px-4 pb-8 text-xs leading-5 text-[#939BAD] sm:px-6">本頁為模型推估結果,不代表基金經理人實際交易。</footer>
+      <footer className="mx-auto max-w-[1480px] px-4 pb-8 text-xs leading-5 text-[#939BAD] sm:px-6">資料來源：{dataSources.join("、")}。本頁為模型推估結果，不代表基金經理人實際交易。</footer>
       <StockDetailSheet stock={pickedStock} prediction={prediction} onClose={() => setPickedStock(undefined)} onEtf={(code) => setPickedEtf(etfs.find((etf) => etf.code === code))} />
       <ETFConsensusSheet etf={pickedEtf} prediction={prediction} onClose={() => setPickedEtf(undefined)} />
       <SearchOverlay open={searchOpen} prediction={prediction} etfs={etfs} onClose={() => setSearchOpen(false)} onStock={setPickedStock} onEtf={setPickedEtf} />

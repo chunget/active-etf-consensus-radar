@@ -1,22 +1,295 @@
 [
-  { "code": "2330", "name": "台積電", "market": "TW", "industry": "半導體", "themes": ["AI先進製程", "AI Server"], "size": "mega", "prior": 95, "flow1": 7, "flow20": 16, "valueTilt": 3 },
-  { "code": "3017", "name": "奇鋐", "market": "TW", "industry": "散熱", "themes": ["散熱", "AI Server"], "size": "mid", "prior": 78, "flow1": -6, "flow20": 19, "valueTilt": 1 },
-  { "code": "3653", "name": "健策", "market": "TW", "industry": "散熱", "themes": ["散熱", "AI Server"], "size": "mid", "prior": 75, "flow1": 4, "flow20": 18, "valueTilt": 0 },
-  { "code": "3661", "name": "世芯-KY", "market": "TW", "industry": "ASIC", "themes": ["ASIC", "AI先進製程"], "size": "mid", "prior": 73, "flow1": 6, "flow20": 14, "valueTilt": -2 },
-  { "code": "2308", "name": "台達電", "market": "TW", "industry": "能源電力", "themes": ["能源電力", "AI Server"], "size": "large", "prior": 82, "flow1": 5, "flow20": 12, "valueTilt": 2 },
-  { "code": "2382", "name": "廣達", "market": "TW", "industry": "AI Server", "themes": ["AI Server"], "size": "large", "prior": 86, "flow1": 3, "flow20": 10, "valueTilt": 1 },
-  { "code": "2317", "name": "鴻海", "market": "TW", "industry": "電子代工", "themes": ["AI Server", "手機復甦"], "size": "mega", "prior": 84, "flow1": 2, "flow20": 8, "valueTilt": 5 },
-  { "code": "2881", "name": "富邦金", "market": "TW", "industry": "金融", "themes": ["金融", "降息交易"], "size": "large", "prior": 74, "flow1": 2, "flow20": 11, "valueTilt": 8 },
-  { "code": "2882", "name": "國泰金", "market": "TW", "industry": "金融", "themes": ["金融", "降息交易"], "size": "large", "prior": 76, "flow1": 1, "flow20": 13, "valueTilt": 9 },
-  { "code": "1303", "name": "南亞", "market": "TW", "industry": "塑化", "themes": ["循環復甦"], "size": "large", "prior": 62, "flow1": 3, "flow20": 15, "valueTilt": 7 },
-  { "code": "6510", "name": "精測", "market": "TW", "industry": "半導體設備", "themes": ["AI先進製程"], "size": "mid", "prior": 68, "flow1": 5, "flow20": 14, "valueTilt": 0 },
-  { "code": "NVDA", "name": "NVIDIA", "market": "US", "industry": "AI晶片", "themes": ["AI先進製程", "AI Server"], "size": "mega", "prior": 94, "flow1": 5, "flow20": 12, "valueTilt": -3 },
-  { "code": "MSFT", "name": "Microsoft", "market": "US", "industry": "雲端軟體", "themes": ["AI新經濟"], "size": "mega", "prior": 88, "flow1": 2, "flow20": 7, "valueTilt": 2 },
-  { "code": "AVGO", "name": "Broadcom", "market": "US", "industry": "ASIC", "themes": ["ASIC", "AI Server"], "size": "mega", "prior": 86, "flow1": 3, "flow20": 10, "valueTilt": 0 },
-  { "code": "TSLA", "name": "Tesla", "market": "US", "industry": "電動車", "themes": ["AI新經濟", "能源電力"], "size": "large", "prior": 64, "flow1": -4, "flow20": 4, "valueTilt": -4 },
-  { "code": "PLTR", "name": "Palantir", "market": "US", "industry": "資料分析", "themes": ["AI新經濟", "航太"], "size": "mid", "prior": 63, "flow1": -3, "flow20": 9, "valueTilt": -2 },
-  { "code": "MU", "name": "Micron", "market": "US", "industry": "記憶體", "themes": ["儲存", "AI Server"], "size": "large", "prior": 67, "flow1": 4, "flow20": 13, "valueTilt": 4 },
-  { "code": "JPM", "name": "JPMorgan Chase", "market": "US", "industry": "金融", "themes": ["金融"], "size": "mega", "prior": 70, "flow1": 1, "flow20": 8, "valueTilt": 8 },
-  { "code": "GE", "name": "GE Aerospace", "market": "US", "industry": "航太", "themes": ["航太"], "size": "large", "prior": 65, "flow1": 2, "flow20": 9, "valueTilt": 3 },
-  { "code": "CEG", "name": "Constellation Energy", "market": "US", "industry": "能源電力", "themes": ["能源電力"], "size": "large", "prior": 66, "flow1": 3, "flow20": 11, "valueTilt": 2 }
+  {
+    "code": "2330",
+    "name": "台積電",
+    "market": "TW",
+    "industry": "半導體",
+    "themes": [
+      "AI先進製程",
+      "AI Server"
+    ],
+    "size": "mega",
+    "prior": 65,
+    "flow1": 1.89,
+    "flow20": 2.41,
+    "valueTilt": 3
+  },
+  {
+    "code": "3017",
+    "name": "奇鋐",
+    "market": "TW",
+    "industry": "散熱",
+    "themes": [
+      "散熱",
+      "AI Server"
+    ],
+    "size": "mid",
+    "prior": 71,
+    "flow1": 0.31,
+    "flow20": 6.7,
+    "valueTilt": 1
+  },
+  {
+    "code": "3653",
+    "name": "健策",
+    "market": "TW",
+    "industry": "散熱",
+    "themes": [
+      "散熱",
+      "AI Server"
+    ],
+    "size": "mid",
+    "prior": 56,
+    "flow1": 2.19,
+    "flow20": -4.37,
+    "valueTilt": 0
+  },
+  {
+    "code": "3661",
+    "name": "世芯-KY",
+    "market": "TW",
+    "industry": "ASIC",
+    "themes": [
+      "ASIC",
+      "AI先進製程"
+    ],
+    "size": "mid",
+    "prior": 46,
+    "flow1": -1.49,
+    "flow20": -11.45,
+    "valueTilt": -2
+  },
+  {
+    "code": "2308",
+    "name": "台達電",
+    "market": "TW",
+    "industry": "能源電力",
+    "themes": [
+      "能源電力",
+      "AI Server"
+    ],
+    "size": "large",
+    "prior": 57,
+    "flow1": -1.46,
+    "flow20": -3.44,
+    "valueTilt": 2
+  },
+  {
+    "code": "2382",
+    "name": "廣達",
+    "market": "TW",
+    "industry": "AI Server",
+    "themes": [
+      "AI Server"
+    ],
+    "size": "large",
+    "prior": 69,
+    "flow1": 1.03,
+    "flow20": 5.2,
+    "valueTilt": 1
+  },
+  {
+    "code": "2317",
+    "name": "鴻海",
+    "market": "TW",
+    "industry": "電子代工",
+    "themes": [
+      "AI Server",
+      "手機復甦"
+    ],
+    "size": "mega",
+    "prior": 64,
+    "flow1": 1.01,
+    "flow20": 1.62,
+    "valueTilt": 5
+  },
+  {
+    "code": "2881",
+    "name": "富邦金",
+    "market": "TW",
+    "industry": "金融",
+    "themes": [
+      "金融",
+      "降息交易"
+    ],
+    "size": "large",
+    "prior": 88,
+    "flow1": -0.98,
+    "flow20": 18.36,
+    "valueTilt": 8
+  },
+  {
+    "code": "2882",
+    "name": "國泰金",
+    "market": "TW",
+    "industry": "金融",
+    "themes": [
+      "金融",
+      "降息交易"
+    ],
+    "size": "large",
+    "prior": 82,
+    "flow1": -0.44,
+    "flow20": 14.64,
+    "valueTilt": 9
+  },
+  {
+    "code": "1303",
+    "name": "南亞",
+    "market": "TW",
+    "industry": "塑化",
+    "themes": [
+      "循環復甦"
+    ],
+    "size": "large",
+    "prior": 95,
+    "flow1": 5.36,
+    "flow20": 26.88,
+    "valueTilt": 7
+  },
+  {
+    "code": "6510",
+    "name": "精測",
+    "market": "TW",
+    "industry": "半導體設備",
+    "themes": [
+      "AI先進製程"
+    ],
+    "size": "mid",
+    "prior": 84,
+    "flow1": -0.93,
+    "flow20": 15.94,
+    "valueTilt": 0
+  },
+  {
+    "code": "NVDA",
+    "name": "NVIDIA",
+    "market": "US",
+    "industry": "AI晶片",
+    "themes": [
+      "AI先進製程",
+      "AI Server"
+    ],
+    "size": "mega",
+    "prior": 58,
+    "flow1": 0.82,
+    "flow20": -2.55,
+    "valueTilt": -3
+  },
+  {
+    "code": "MSFT",
+    "name": "Microsoft",
+    "market": "US",
+    "industry": "雲端軟體",
+    "themes": [
+      "AI新經濟"
+    ],
+    "size": "mega",
+    "prior": 65,
+    "flow1": -1.37,
+    "flow20": 1.99,
+    "valueTilt": 2
+  },
+  {
+    "code": "AVGO",
+    "name": "Broadcom",
+    "market": "US",
+    "industry": "ASIC",
+    "themes": [
+      "ASIC",
+      "AI Server"
+    ],
+    "size": "mega",
+    "prior": 47,
+    "flow1": 0.07,
+    "flow20": -10.66,
+    "valueTilt": 0
+  },
+  {
+    "code": "TSLA",
+    "name": "Tesla",
+    "market": "US",
+    "industry": "電動車",
+    "themes": [
+      "AI新經濟",
+      "能源電力"
+    ],
+    "size": "large",
+    "prior": 71,
+    "flow1": 0.42,
+    "flow20": 6.3,
+    "valueTilt": -4
+  },
+  {
+    "code": "PLTR",
+    "name": "Palantir",
+    "market": "US",
+    "industry": "資料分析",
+    "themes": [
+      "AI新經濟",
+      "航太"
+    ],
+    "size": "mid",
+    "prior": 64,
+    "flow1": 1.03,
+    "flow20": 1.63,
+    "valueTilt": -2
+  },
+  {
+    "code": "MU",
+    "name": "Micron",
+    "market": "US",
+    "industry": "記憶體",
+    "themes": [
+      "儲存",
+      "AI Server"
+    ],
+    "size": "large",
+    "prior": 60,
+    "flow1": -0.11,
+    "flow20": -1.51,
+    "valueTilt": 4
+  },
+  {
+    "code": "JPM",
+    "name": "JPMorgan Chase",
+    "market": "US",
+    "industry": "金融",
+    "themes": [
+      "金融"
+    ],
+    "size": "mega",
+    "prior": 56,
+    "flow1": -1.01,
+    "flow20": -3.94,
+    "valueTilt": 8
+  },
+  {
+    "code": "GE",
+    "name": "GE Aerospace",
+    "market": "US",
+    "industry": "航太",
+    "themes": [
+      "航太"
+    ],
+    "size": "large",
+    "prior": 39,
+    "flow1": 1.91,
+    "flow20": -16.58,
+    "valueTilt": 3
+  },
+  {
+    "code": "CEG",
+    "name": "Constellation Energy",
+    "market": "US",
+    "industry": "能源電力",
+    "themes": [
+      "能源電力"
+    ],
+    "size": "large",
+    "prior": 58,
+    "flow1": -0.14,
+    "flow20": -2.74,
+    "valueTilt": 2
+  }
 ]

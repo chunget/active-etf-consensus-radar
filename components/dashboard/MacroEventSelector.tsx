@@ -31,7 +31,7 @@ export function MacroEventSelector({
           <p className="text-xs text-[#939BAD]">今日總經開獎</p>
           <h2 className="mt-1 text-base font-semibold">目前使用 {applied} 個事件推演</h2>
         </div>
-        <span className="rounded-full border border-[#3B3E45] px-2 py-1 text-xs text-[#FFC83D]">即時連線中</span>
+        <span className="rounded-full border border-[#3B3E45] px-2 py-1 text-xs text-[#FFC83D]">每日更新</span>
       </div>
       <div className="mt-3 grid grid-cols-3 gap-2">
         {(["ALL", "US", "TW"] as const).map((item) => (
@@ -62,7 +62,7 @@ export function MacroEventSelector({
               </div>
               <div className="mt-3 grid grid-cols-3 gap-2 text-xs text-[#939BAD] tabular-nums">
                 <span>實際 <b className="block text-[#F5F5F5]">{event.actual}{event.unit}</b></span>
-                <span>預期 <b className="block text-[#F5F5F5]">{event.expected}{event.unit}</b></span>
+                <span>模型基準 <b className="block text-[#F5F5F5]">{event.expected}{event.unit}</b></span>
                 <span>前值 <b className="block text-[#F5F5F5]">{event.previous}{event.unit}</b></span>
               </div>
               <p className="mt-2 text-xs text-[#FFC83D]">{eventRead(event.actual, event.expected)}</p>

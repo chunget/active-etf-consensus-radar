@@ -1,22 +1,88 @@
 {
-  "date": "2026/09/10",
-  "period": "08/13-09/10",
+  "date": "2026/09/17",
+  "period": "08/18-09/17",
   "increases": [
-    { "code": "3017", "name": "奇鋐", "change": 20.11 },
-    { "code": "3653", "name": "健策", "change": 17.95 },
-    { "code": "1303", "name": "南亞", "change": 15.45 },
-    { "code": "6510", "name": "精測", "change": 14.38 },
-    { "code": "", "name": "SPACE EXPLORATION T", "change": 12.61 },
-    { "code": "2882", "name": "國泰金", "change": 11.92 },
-    { "code": "2308", "name": "台達電", "change": 10.74 },
-    { "code": "MU", "name": "Micron", "change": 9.88 }
+    {
+      "code": "1303",
+      "name": "南亞",
+      "change": 26.88
+    },
+    {
+      "code": "2881",
+      "name": "富邦金",
+      "change": 18.36
+    },
+    {
+      "code": "6510",
+      "name": "精測",
+      "change": 15.94
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
+      "change": 14.64
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "change": 6.7
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla",
+      "change": 6.3
+    },
+    {
+      "code": "2382",
+      "name": "廣達",
+      "change": 5.2
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "change": 2.41
+    }
   ],
   "decreases": [
-    { "code": "TSLA", "name": "Tesla", "change": -11.8 },
-    { "code": "PLTR", "name": "Palantir", "change": -9.6 },
-    { "code": "2382", "name": "廣達", "change": -7.2 },
-    { "code": "2317", "name": "鴻海", "change": -6.9 },
-    { "code": "GE", "name": "GE Aerospace", "change": -5.7 },
-    { "code": "00983A", "name": "主動中信ARK創新", "change": -4.9 }
+    {
+      "code": "GE",
+      "name": "GE Aerospace",
+      "change": -16.58
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "change": -11.45
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "change": -10.66
+    },
+    {
+      "code": "3653",
+      "name": "健策",
+      "change": -4.37
+    },
+    {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "change": -3.94
+    },
+    {
+      "code": "2308",
+      "name": "台達電",
+      "change": -3.44
+    },
+    {
+      "code": "CEG",
+      "name": "Constellation Energy",
+      "change": -2.74
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "change": -2.55
+    }
   ]
 }
