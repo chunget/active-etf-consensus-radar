@@ -8,7 +8,7 @@
     "previous": 3.5,
     "unit": "%",
     "releasedAt": "2026-08-01T00:00:00Z",
-    "fresh": true,
+    "fresh": false,
     "kind": "inflation"
   },
   {
@@ -20,7 +20,7 @@
     "previous": 2.8,
     "unit": "%",
     "releasedAt": "2026-08-01T00:00:00Z",
-    "fresh": true,
+    "fresh": false,
     "kind": "inflation"
   },
   {
@@ -32,18 +32,18 @@
     "previous": 21,
     "unit": "K",
     "releasedAt": "2026-08-01T00:00:00Z",
-    "fresh": true,
+    "fresh": false,
     "kind": "jobs"
   },
   {
     "id": "us-yield",
     "region": "US",
     "name": "美國 10 年期殖利率",
-    "actual": 5.01,
-    "expected": 4.92,
-    "previous": 5,
+    "actual": 4.94,
+    "expected": 4.95,
+    "previous": 5.01,
     "unit": "%",
-    "releasedAt": "2026-09-16T00:00:00Z",
+    "releasedAt": "2026-09-17T00:00:00Z",
     "fresh": true,
     "kind": "yield"
   },
@@ -51,11 +51,11 @@
     "id": "tw-tech-momentum",
     "region": "TW",
     "name": "台灣追蹤股 20 日動能",
-    "actual": 6.59,
+    "actual": 9.8,
     "expected": 0,
-    "previous": 6.14,
+    "previous": 9.17,
     "unit": "%",
-    "releasedAt": "2026-09-18T02:11:28.912Z",
+    "releasedAt": "2026-09-21T00:27:21.986Z",
     "fresh": true,
     "kind": "exports"
   },
@@ -63,11 +63,11 @@
     "id": "active-etf-breadth",
     "region": "TW",
     "name": "主動 ETF 上漲家數比",
-    "actual": 46.7,
+    "actual": 96.7,
     "expected": 50,
     "previous": 50,
     "unit": "%",
-    "releasedAt": "2026-09-18T02:11:27.946Z",
+    "releasedAt": "2026-09-21T00:27:21.482Z",
     "fresh": true,
     "kind": "breadth"
   },
@@ -75,11 +75,11 @@
     "id": "vix",
     "region": "US",
     "name": "VIX 波動率",
-    "actual": 17.7,
-    "expected": 16.7,
-    "previous": 17.2,
+    "actual": 15.4,
+    "expected": 17,
+    "previous": 17.7,
     "unit": "",
-    "releasedAt": "2026-09-16T00:00:00Z",
+    "releasedAt": "2026-09-17T00:00:00Z",
     "fresh": true,
     "kind": "vol"
   },
@@ -92,7 +92,7 @@
     "previous": 118.1,
     "unit": "",
     "releasedAt": "2026-09-11T00:00:00Z",
-    "fresh": true,
+    "fresh": false,
     "kind": "dollar"
   }
 ]
