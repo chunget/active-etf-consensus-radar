@@ -1,46 +1,46 @@
 {
-  "date": "2026/09/22",
-  "period": "08/21-09/22",
+  "date": "2026/09/23",
+  "period": "08/21-09/23",
   "increases": [
     {
       "code": "6510",
       "name": "精測",
-      "change": 38.06
-    },
-    {
-      "code": "1303",
-      "name": "南亞",
-      "change": 22.81
-    },
-    {
-      "code": "3017",
-      "name": "奇鋐",
-      "change": 14.92
-    },
-    {
-      "code": "3653",
-      "name": "健策",
-      "change": 12.01
-    },
-    {
-      "code": "2308",
-      "name": "台達電",
-      "change": 11.11
-    },
-    {
-      "code": "2881",
-      "name": "富邦金",
-      "change": 9.19
-    },
-    {
-      "code": "2882",
-      "name": "國泰金",
-      "change": 8.74
+      "change": 32.63
     },
     {
       "code": "MU",
       "name": "Micron",
-      "change": 7.98
+      "change": 20.4
+    },
+    {
+      "code": "3653",
+      "name": "健策",
+      "change": 11.97
+    },
+    {
+      "code": "2881",
+      "name": "富邦金",
+      "change": 10.47
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "change": 9.98
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "change": 9.9
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "change": 9.9
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
+      "change": 8.78
     }
   ],
   "decreases": [
@@ -50,39 +50,39 @@
       "change": -8.43
     },
     {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "change": -4.6
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "change": -4.31
+    },
+    {
       "code": "CEG",
       "name": "Constellation Energy",
       "change": -3.95
     },
     {
-      "code": "3661",
-      "name": "世芯-KY",
-      "change": -3.13
-    },
-    {
       "code": "AVGO",
       "name": "Broadcom",
-      "change": -1.39
+      "change": 1.8
     },
     {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
-      "change": 0.13
+      "code": "MSFT",
+      "name": "Microsoft",
+      "change": 2.19
     },
     {
-      "code": "PLTR",
-      "name": "Palantir",
-      "change": 1.75
+      "code": "2382",
+      "name": "廣達",
+      "change": 2.71
     },
     {
       "code": "2330",
       "name": "台積電",
-      "change": 2.8
-    },
-    {
-      "code": "TSLA",
-      "name": "Tesla",
-      "change": 3.43
+      "change": 3.82
     }
   ]
 }

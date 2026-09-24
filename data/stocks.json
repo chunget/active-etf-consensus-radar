@@ -9,9 +9,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 66,
-    "flow1": -0.81,
-    "flow20": 2.8,
+    "prior": 67,
+    "flow1": 1.63,
+    "flow20": 3.82,
     "valueTilt": 3
   },
   {
@@ -24,9 +24,9 @@
       "AI Server"
     ],
     "size": "mid",
-    "prior": 83,
-    "flow1": -0.73,
-    "flow20": 14.92,
+    "prior": 76,
+    "flow1": 2.36,
+    "flow20": 9.98,
     "valueTilt": 1
   },
   {
@@ -40,8 +40,8 @@
     ],
     "size": "mid",
     "prior": 79,
-    "flow1": 0.69,
-    "flow20": 12.01,
+    "flow1": 9.95,
+    "flow20": 11.97,
     "valueTilt": 0
   },
   {
@@ -54,9 +54,9 @@
       "AI先進製程"
     ],
     "size": "mid",
-    "prior": 58,
-    "flow1": 1.36,
-    "flow20": -3.13,
+    "prior": 56,
+    "flow1": 1.21,
+    "flow20": -4.31,
     "valueTilt": -2
   },
   {
@@ -69,9 +69,9 @@
       "AI Server"
     ],
     "size": "large",
-    "prior": 78,
-    "flow1": 1.33,
-    "flow20": 11.11,
+    "prior": 74,
+    "flow1": 0,
+    "flow20": 8.57,
     "valueTilt": 2
   },
   {
@@ -83,9 +83,9 @@
       "AI Server"
     ],
     "size": "large",
-    "prior": 68,
-    "flow1": -0.73,
-    "flow20": 4.11,
+    "prior": 66,
+    "flow1": -0.15,
+    "flow20": 2.71,
     "valueTilt": 1
   },
   {
@@ -98,9 +98,9 @@
       "手機復甦"
     ],
     "size": "mega",
-    "prior": 68,
-    "flow1": 1.2,
-    "flow20": 4.12,
+    "prior": 67,
+    "flow1": 1.19,
+    "flow20": 3.85,
     "valueTilt": 5
   },
   {
@@ -113,9 +113,9 @@
       "降息交易"
     ],
     "size": "large",
-    "prior": 75,
-    "flow1": 0,
-    "flow20": 9.19,
+    "prior": 77,
+    "flow1": -0.97,
+    "flow20": 10.47,
     "valueTilt": 8
   },
   {
@@ -129,8 +129,8 @@
     ],
     "size": "large",
     "prior": 74,
-    "flow1": -0.88,
-    "flow20": 8.74,
+    "flow1": -0.45,
+    "flow20": 8.78,
     "valueTilt": 9
   },
   {
@@ -142,9 +142,9 @@
       "循環復甦"
     ],
     "size": "large",
-    "prior": 94,
-    "flow1": -3.34,
-    "flow20": 22.81,
+    "prior": 76,
+    "flow1": -1.73,
+    "flow20": 9.9,
     "valueTilt": 7
   },
   {
@@ -157,8 +157,8 @@
     ],
     "size": "mid",
     "prior": 95,
-    "flow1": 6.17,
-    "flow20": 38.06,
+    "flow1": -6.08,
+    "flow20": 32.63,
     "valueTilt": 0
   },
   {
@@ -171,9 +171,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 70,
-    "flow1": 2.3,
-    "flow20": 6.01,
+    "prior": 76,
+    "flow1": 0.66,
+    "flow20": 9.9,
     "valueTilt": -3
   },
   {
@@ -185,9 +185,9 @@
       "AI新經濟"
     ],
     "size": "mega",
-    "prior": 67,
-    "flow1": 1.59,
-    "flow20": 3.8,
+    "prior": 65,
+    "flow1": -0.72,
+    "flow20": 2.19,
     "valueTilt": 2
   },
   {
@@ -200,9 +200,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 60,
-    "flow1": 1.6,
-    "flow20": -1.39,
+    "prior": 65,
+    "flow1": 0.52,
+    "flow20": 1.8,
     "valueTilt": 0
   },
   {
@@ -215,9 +215,9 @@
       "能源電力"
     ],
     "size": "large",
-    "prior": 67,
-    "flow1": 3.03,
-    "flow20": 3.43,
+    "prior": 74,
+    "flow1": 0.96,
+    "flow20": 8.58,
     "valueTilt": -4
   },
   {
@@ -230,9 +230,9 @@
       "航太"
     ],
     "size": "mid",
-    "prior": 64,
-    "flow1": 3.07,
-    "flow20": 1.75,
+    "prior": 69,
+    "flow1": 1.04,
+    "flow20": 5.17,
     "valueTilt": -2
   },
   {
@@ -245,9 +245,9 @@
       "AI Server"
     ],
     "size": "large",
-    "prior": 73,
-    "flow1": 2.77,
-    "flow20": 7.98,
+    "prior": 91,
+    "flow1": 5,
+    "flow20": 20.4,
     "valueTilt": 4
   },
   {
@@ -259,9 +259,9 @@
       "金融"
     ],
     "size": "mega",
-    "prior": 62,
-    "flow1": 0.68,
-    "flow20": 0.13,
+    "prior": 56,
+    "flow1": -3.42,
+    "flow20": -4.6,
     "valueTilt": 8
   },
   {
