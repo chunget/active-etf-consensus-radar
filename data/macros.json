@@ -39,11 +39,11 @@
     "id": "us-yield",
     "region": "US",
     "name": "美國 10 年期殖利率",
-    "actual": 5.11,
-    "expected": 4.98,
-    "previous": 4.96,
+    "actual": 5.18,
+    "expected": 5,
+    "previous": 5.11,
     "unit": "%",
-    "releasedAt": "2026-09-23T00:00:00Z",
+    "releasedAt": "2026-09-24T00:00:00Z",
     "fresh": true,
     "kind": "yield"
   },
@@ -55,7 +55,7 @@
     "expected": 0,
     "previous": 6.48,
     "unit": "%",
-    "releasedAt": "2026-09-25T00:44:56.223Z",
+    "releasedAt": "2026-09-28T01:06:58.395Z",
     "fresh": true,
     "kind": "exports"
   },
@@ -67,7 +67,7 @@
     "expected": 50,
     "previous": 50,
     "unit": "%",
-    "releasedAt": "2026-09-25T00:44:55.766Z",
+    "releasedAt": "2026-09-28T01:06:57.314Z",
     "fresh": true,
     "kind": "breadth"
   },
@@ -92,7 +92,7 @@
     "previous": 119.3,
     "unit": "",
     "releasedAt": "2026-09-18T00:00:00Z",
-    "fresh": true,
+    "fresh": false,
     "kind": "dollar"
   }
 ]
