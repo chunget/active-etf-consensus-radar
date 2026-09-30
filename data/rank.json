@@ -1,88 +1,88 @@
 {
-  "date": "2026/09/24",
-  "period": "08/26-09/24",
+  "date": "2026/09/29",
+  "period": "08/28-09/29",
   "increases": [
     {
       "code": "3653",
       "name": "健策",
-      "change": 22.59
+      "change": 19.19
     },
     {
       "code": "6510",
       "name": "精測",
-      "change": 20.8
+      "change": 17.16
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "change": 12.02
     },
     {
       "code": "MU",
       "name": "Micron",
-      "change": 15.15
-    },
-    {
-      "code": "TSLA",
-      "name": "Tesla",
-      "change": 9.29
-    },
-    {
-      "code": "PLTR",
-      "name": "Palantir",
-      "change": 8.5
-    },
-    {
-      "code": "2308",
-      "name": "台達電",
-      "change": 7.91
+      "change": 11.09
     },
     {
       "code": "2882",
       "name": "國泰金",
-      "change": 7.8
+      "change": 5.69
+    },
+    {
+      "code": "2881",
+      "name": "富邦金",
+      "change": 5.21
     },
     {
       "code": "NVDA",
       "name": "NVIDIA",
-      "change": 7.24
+      "change": 3.03
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "change": 2.57
     }
   ],
   "decreases": [
     {
-      "code": "GE",
-      "name": "GE Aerospace",
-      "change": -9.77
-    },
-    {
-      "code": "CEG",
-      "name": "Constellation Energy",
-      "change": -6.4
+      "code": "3661",
+      "name": "世芯-KY",
+      "change": -8.64
     },
     {
       "code": "JPM",
       "name": "JPMorgan Chase",
-      "change": -5.03
+      "change": -5.91
     },
     {
-      "code": "3661",
-      "name": "世芯-KY",
-      "change": -1.82
+      "code": "GE",
+      "name": "GE Aerospace",
+      "change": -5.31
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla",
+      "change": -4.11
     },
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "change": -1.29
+      "change": -3.94
+    },
+    {
+      "code": "CEG",
+      "name": "Constellation Energy",
+      "change": -3.71
     },
     {
       "code": "2317",
       "name": "鴻海",
-      "change": -0.6
+      "change": -0.99
     },
     {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "change": 0.31
-    },
-    {
-      "code": "2382",
-      "name": "廣達",
-      "change": 1.5
+      "code": "2308",
+      "name": "台達電",
+      "change": 0.27
     }
   ]
 }
