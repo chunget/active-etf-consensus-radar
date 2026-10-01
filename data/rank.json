@@ -1,21 +1,11 @@
 {
-  "date": "2026/09/29",
-  "period": "08/28-09/29",
+  "date": "2026/09/30",
+  "period": "08/31-09/30",
   "increases": [
     {
       "code": "3653",
       "name": "健策",
-      "change": 19.19
-    },
-    {
-      "code": "6510",
-      "name": "精測",
-      "change": 17.16
-    },
-    {
-      "code": "1303",
-      "name": "南亞",
-      "change": 12.02
+      "change": 13.52
     },
     {
       "code": "MU",
@@ -23,14 +13,24 @@
       "change": 11.09
     },
     {
-      "code": "2882",
-      "name": "國泰金",
-      "change": 5.69
+      "code": "6510",
+      "name": "精測",
+      "change": 7.73
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "change": 5.36
     },
     {
       "code": "2881",
       "name": "富邦金",
-      "change": 5.21
+      "change": 4.86
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "change": 3.42
     },
     {
       "code": "NVDA",
@@ -38,16 +38,16 @@
       "change": 3.03
     },
     {
-      "code": "2330",
-      "name": "台積電",
-      "change": 2.57
+      "code": "2308",
+      "name": "台達電",
+      "change": 2.72
     }
   ],
   "decreases": [
     {
       "code": "3661",
       "name": "世芯-KY",
-      "change": -8.64
+      "change": -7.5
     },
     {
       "code": "JPM",
@@ -75,14 +75,14 @@
       "change": -3.71
     },
     {
-      "code": "2317",
-      "name": "鴻海",
-      "change": -0.99
+      "code": "2382",
+      "name": "廣達",
+      "change": -1.48
     },
     {
-      "code": "2308",
-      "name": "台達電",
-      "change": 0.27
+      "code": "3017",
+      "name": "奇鋐",
+      "change": 0.29
     }
   ]
 }
