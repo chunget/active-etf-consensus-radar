@@ -1,88 +1,88 @@
 {
-  "date": "2026/10/02",
-  "period": "09/02-10/02",
+  "date": "2026/10/05",
+  "period": "09/03-10/05",
   "increases": [
-    {
-      "code": "3653",
-      "name": "健策",
-      "change": 17.85
-    },
-    {
-      "code": "MU",
-      "name": "Micron",
-      "change": 12.18
-    },
     {
       "code": "1303",
       "name": "南亞",
-      "change": 9.47
+      "change": 29.41
+    },
+    {
+      "code": "3653",
+      "name": "健策",
+      "change": 28.32
     },
     {
       "code": "2308",
       "name": "台達電",
-      "change": 8.96
-    },
-    {
-      "code": "2330",
-      "name": "台積電",
-      "change": 5.13
-    },
-    {
-      "code": "2881",
-      "name": "富邦金",
-      "change": 4.88
+      "change": 13.92
     },
     {
       "code": "3017",
       "name": "奇鋐",
-      "change": 3.93
+      "change": 8.64
     },
     {
       "code": "PLTR",
       "name": "Palantir",
-      "change": 3.41
-    }
-  ],
-  "decreases": [
-    {
-      "code": "6510",
-      "name": "精測",
-      "change": -10.63
+      "change": 8.64
     },
     {
-      "code": "CEG",
-      "name": "Constellation Energy",
-      "change": -9.67
-    },
-    {
-      "code": "3661",
-      "name": "世芯-KY",
-      "change": -8.58
-    },
-    {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
-      "change": -8.2
-    },
-    {
-      "code": "GE",
-      "name": "GE Aerospace",
-      "change": -7.17
+      "code": "2330",
+      "name": "台積電",
+      "change": 8.06
     },
     {
       "code": "TSLA",
       "name": "Tesla",
-      "change": -1.54
+      "change": 6.96
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "change": 5.1
+    }
+  ],
+  "decreases": [
+    {
+      "code": "CEG",
+      "name": "Constellation Energy",
+      "change": -10.48
+    },
+    {
+      "code": "GE",
+      "name": "GE Aerospace",
+      "change": -8.99
+    },
+    {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "change": -7.32
+    },
+    {
+      "code": "6510",
+      "name": "精測",
+      "change": -7.31
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "change": -2.47
     },
     {
       "code": "2382",
       "name": "廣達",
-      "change": -1.48
+      "change": -1.19
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
+      "change": -0.89
     },
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "change": -0.38
+      "change": 1.47
     }
   ]
 }
