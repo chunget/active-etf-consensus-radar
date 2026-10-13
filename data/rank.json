@@ -1,6 +1,6 @@
 {
-  "date": "2026/10/08",
-  "period": "09/08-10/08",
+  "date": "2026/10/12",
+  "period": "09/08-10/12",
   "increases": [
     {
       "code": "1303",
@@ -15,7 +15,12 @@
     {
       "code": "PLTR",
       "name": "Palantir",
-      "change": 19.85
+      "change": 20.59
+    },
+    {
+      "code": "CEG",
+      "name": "Constellation Energy",
+      "change": 11.08
     },
     {
       "code": "2308",
@@ -28,19 +33,14 @@
       "change": 7.82
     },
     {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "change": 6.13
-    },
-    {
-      "code": "MU",
-      "name": "Micron",
-      "change": 5.98
-    },
-    {
       "code": "NVDA",
       "name": "NVIDIA",
-      "change": 5.55
+      "change": 7.28
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "change": 7.07
     }
   ],
   "decreases": [
@@ -52,17 +52,17 @@
     {
       "code": "JPM",
       "name": "JPMorgan Chase",
-      "change": -5.79
-    },
-    {
-      "code": "GE",
-      "name": "GE Aerospace",
-      "change": -5.57
+      "change": -4.04
     },
     {
       "code": "2882",
       "name": "國泰金",
       "change": -3.08
+    },
+    {
+      "code": "GE",
+      "name": "GE Aerospace",
+      "change": -2.66
     },
     {
       "code": "2317",
@@ -75,14 +75,14 @@
       "change": -0.76
     },
     {
-      "code": "CEG",
-      "name": "Constellation Energy",
-      "change": -0.31
+      "code": "2881",
+      "name": "富邦金",
+      "change": 2.68
     },
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "change": -0.01
+      "change": 3.09
     }
   ]
 }
