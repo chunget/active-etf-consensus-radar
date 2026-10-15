@@ -1,88 +1,88 @@
 {
-  "date": "2026/10/13",
-  "period": "09/10-10/13",
+  "date": "2026/10/14",
+  "period": "09/11-10/14",
   "increases": [
     {
       "code": "1303",
       "name": "南亞",
-      "change": 30.74
+      "change": 48.83
     },
     {
       "code": "3653",
       "name": "健策",
-      "change": 20.73
+      "change": 22.64
     },
     {
       "code": "PLTR",
       "name": "Palantir",
-      "change": 20.59
+      "change": 20.93
     },
     {
       "code": "CEG",
       "name": "Constellation Energy",
-      "change": 11.08
+      "change": 13.81
     },
     {
-      "code": "2881",
-      "name": "富邦金",
-      "change": 7.74
-    },
-    {
-      "code": "NVDA",
-      "name": "NVIDIA",
-      "change": 7.28
+      "code": "2308",
+      "name": "台達電",
+      "change": 10.19
     },
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "change": 7.07
+      "change": 8.85
     },
     {
-      "code": "MU",
-      "name": "Micron",
-      "change": 7.04
+      "code": "2881",
+      "name": "富邦金",
+      "change": 8.08
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "change": 7.95
     }
   ],
   "decreases": [
     {
       "code": "6510",
       "name": "精測",
-      "change": -10.76
-    },
-    {
-      "code": "3017",
-      "name": "奇鋐",
-      "change": -5.2
-    },
-    {
-      "code": "2317",
-      "name": "鴻海",
-      "change": -4.38
-    },
-    {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
-      "change": -4.04
+      "change": -7.33
     },
     {
       "code": "2382",
       "name": "廣達",
-      "change": -3.87
+      "change": -4.01
+    },
+    {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "change": -3.43
+    },
+    {
+      "code": "2317",
+      "name": "鴻海",
+      "change": -2.02
     },
     {
       "code": "GE",
       "name": "GE Aerospace",
-      "change": -2.66
+      "change": -1.73
     },
     {
-      "code": "3661",
-      "name": "世芯-KY",
-      "change": 0
+      "code": "3017",
+      "name": "奇鋐",
+      "change": -1.63
     },
     {
-      "code": "2330",
-      "name": "台積電",
-      "change": 1.93
+      "code": "MU",
+      "name": "Micron",
+      "change": -1.32
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "change": 2.17
     }
   ]
 }
