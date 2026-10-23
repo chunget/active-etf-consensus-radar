@@ -1,88 +1,88 @@
 {
-  "date": "2026/10/20",
-  "period": "09/17-10/20",
+  "date": "2026/10/22",
+  "period": "09/21-10/22",
   "increases": [
     {
       "code": "1303",
       "name": "南亞",
-      "change": 25.42
-    },
-    {
-      "code": "3653",
-      "name": "健策",
-      "change": 24.18
-    },
-    {
-      "code": "3661",
-      "name": "世芯-KY",
-      "change": 10.47
+      "change": 25.68
     },
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "change": 6.36
+      "change": 6.46
     },
     {
       "code": "PLTR",
       "name": "Palantir",
-      "change": 6.04
+      "change": 5.18
     },
     {
-      "code": "3017",
-      "name": "奇鋐",
-      "change": 4.4
-    },
-    {
-      "code": "2881",
-      "name": "富邦金",
-      "change": 1.32
+      "code": "3653",
+      "name": "健策",
+      "change": 4.84
     },
     {
       "code": "CEG",
       "name": "Constellation Energy",
-      "change": 0.41
+      "change": 2.6
+    },
+    {
+      "code": "2881",
+      "name": "富邦金",
+      "change": 2.59
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla",
+      "change": 1.67
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
+      "change": 0.44
     }
   ],
   "decreases": [
     {
-      "code": "MU",
-      "name": "Micron",
-      "change": -13.31
-    },
-    {
-      "code": "AVGO",
-      "name": "Broadcom",
-      "change": -7.74
-    },
-    {
-      "code": "2382",
-      "name": "廣達",
-      "change": -6.83
-    },
-    {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
-      "change": -4.79
-    },
-    {
       "code": "2308",
       "name": "台達電",
-      "change": -4.75
+      "change": -16.8
     },
     {
-      "code": "NVDA",
-      "name": "NVIDIA",
-      "change": -4.53
-    },
-    {
-      "code": "2317",
-      "name": "鴻海",
-      "change": -3.59
+      "code": "MU",
+      "name": "Micron",
+      "change": -14.75
     },
     {
       "code": "6510",
       "name": "精測",
-      "change": -3.28
+      "change": -12.05
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "change": -7.91
+    },
+    {
+      "code": "GE",
+      "name": "GE Aerospace",
+      "change": -7.34
+    },
+    {
+      "code": "2382",
+      "name": "廣達",
+      "change": -6.53
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "change": -4.84
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "change": -4.64
     }
   ]
 }
