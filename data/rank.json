@@ -8,24 +8,14 @@
       "change": 25.68
     },
     {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "change": 6.46
-    },
-    {
-      "code": "PLTR",
-      "name": "Palantir",
-      "change": 5.18
-    },
-    {
       "code": "3653",
       "name": "健策",
       "change": 4.84
     },
     {
-      "code": "CEG",
-      "name": "Constellation Energy",
-      "change": 2.6
+      "code": "MSFT",
+      "name": "Microsoft",
+      "change": 4.65
     },
     {
       "code": "2881",
@@ -33,26 +23,36 @@
       "change": 2.59
     },
     {
-      "code": "TSLA",
-      "name": "Tesla",
-      "change": 1.67
+      "code": "PLTR",
+      "name": "Palantir",
+      "change": 1.87
     },
     {
       "code": "2882",
       "name": "國泰金",
       "change": 0.44
+    },
+    {
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "change": -0.1
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla",
+      "change": -0.89
     }
   ],
   "decreases": [
     {
+      "code": "MU",
+      "name": "Micron",
+      "change": -20.72
+    },
+    {
       "code": "2308",
       "name": "台達電",
       "change": -16.8
-    },
-    {
-      "code": "MU",
-      "name": "Micron",
-      "change": -14.75
     },
     {
       "code": "6510",
@@ -60,14 +60,19 @@
       "change": -12.05
     },
     {
+      "code": "GE",
+      "name": "GE Aerospace",
+      "change": -8.07
+    },
+    {
       "code": "3017",
       "name": "奇鋐",
       "change": -7.91
     },
     {
-      "code": "GE",
-      "name": "GE Aerospace",
-      "change": -7.34
+      "code": "AVGO",
+      "name": "Broadcom",
+      "change": -7.74
     },
     {
       "code": "2382",
@@ -75,14 +80,9 @@
       "change": -6.53
     },
     {
-      "code": "AVGO",
-      "name": "Broadcom",
-      "change": -4.84
-    },
-    {
-      "code": "3661",
-      "name": "世芯-KY",
-      "change": -4.64
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "change": -5.51
     }
   ]
 }

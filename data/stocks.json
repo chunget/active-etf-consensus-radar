@@ -171,9 +171,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 60,
-    "flow1": 2.54,
-    "flow20": -1.57,
+    "prior": 54,
+    "flow1": -4.4,
+    "flow20": -5.51,
     "valueTilt": -3
   },
   {
@@ -185,9 +185,9 @@
       "AI新經濟"
     ],
     "size": "mega",
-    "prior": 71,
-    "flow1": 0.2,
-    "flow20": 6.46,
+    "prior": 69,
+    "flow1": -2.23,
+    "flow20": 4.65,
     "valueTilt": 2
   },
   {
@@ -200,9 +200,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 55,
-    "flow1": 1.03,
-    "flow20": -4.84,
+    "prior": 51,
+    "flow1": -4.31,
+    "flow20": -7.74,
     "valueTilt": 0
   },
   {
@@ -215,9 +215,9 @@
       "能源電力"
     ],
     "size": "large",
-    "prior": 64,
-    "flow1": 3.41,
-    "flow20": 1.67,
+    "prior": 61,
+    "flow1": -3.08,
+    "flow20": -0.89,
     "valueTilt": -4
   },
   {
@@ -230,9 +230,9 @@
       "航太"
     ],
     "size": "mid",
-    "prior": 69,
-    "flow1": 4.74,
-    "flow20": 5.18,
+    "prior": 65,
+    "flow1": -2.74,
+    "flow20": 1.87,
     "valueTilt": -2
   },
   {
@@ -245,9 +245,9 @@
       "AI Server"
     ],
     "size": "large",
-    "prior": 41,
-    "flow1": 1.96,
-    "flow20": -14.75,
+    "prior": 33,
+    "flow1": -6.26,
+    "flow20": -20.72,
     "valueTilt": 4
   },
   {
@@ -260,8 +260,8 @@
     ],
     "size": "mega",
     "prior": 62,
-    "flow1": -0.02,
-    "flow20": -0.2,
+    "flow1": 0.4,
+    "flow20": -0.1,
     "valueTilt": 8
   },
   {
@@ -273,9 +273,9 @@
       "航太"
     ],
     "size": "large",
-    "prior": 52,
-    "flow1": -1.33,
-    "flow20": -7.34,
+    "prior": 51,
+    "flow1": -0.79,
+    "flow20": -8.07,
     "valueTilt": 3
   },
   {
@@ -287,9 +287,9 @@
       "能源電力"
     ],
     "size": "large",
-    "prior": 66,
-    "flow1": 4.6,
-    "flow20": 2.6,
+    "prior": 59,
+    "flow1": -5.74,
+    "flow20": -2.45,
     "valueTilt": 2
   }
 ]

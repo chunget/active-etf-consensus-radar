@@ -39,11 +39,11 @@
     "id": "us-yield",
     "region": "US",
     "name": "美國 10 年期殖利率",
-    "actual": 5.13,
-    "expected": 5.14,
-    "previous": 5.12,
+    "actual": 4.96,
+    "expected": 5.13,
+    "previous": 5.13,
     "unit": "%",
-    "releasedAt": "2026-10-21T00:00:00Z",
+    "releasedAt": "2026-10-22T00:00:00Z",
     "fresh": true,
     "kind": "yield"
   },
@@ -55,7 +55,7 @@
     "expected": 0,
     "previous": -1.56,
     "unit": "%",
-    "releasedAt": "2026-10-23T00:53:14.579Z",
+    "releasedAt": "2026-10-26T00:39:32.580Z",
     "fresh": true,
     "kind": "exports"
   },
@@ -67,7 +67,7 @@
     "expected": 50,
     "previous": 50,
     "unit": "%",
-    "releasedAt": "2026-10-23T00:53:13.798Z",
+    "releasedAt": "2026-10-26T00:39:31.831Z",
     "fresh": true,
     "kind": "breadth"
   },
@@ -75,11 +75,11 @@
     "id": "vix",
     "region": "US",
     "name": "VIX 波動率",
-    "actual": 16.7,
-    "expected": 17.4,
-    "previous": 17.3,
+    "actual": 19,
+    "expected": 17.6,
+    "previous": 16.7,
     "unit": "",
-    "releasedAt": "2026-10-21T00:00:00Z",
+    "releasedAt": "2026-10-22T00:00:00Z",
     "fresh": true,
     "kind": "vol"
   },
@@ -92,7 +92,7 @@
     "previous": 121.6,
     "unit": "",
     "releasedAt": "2026-10-16T00:00:00Z",
-    "fresh": true,
+    "fresh": false,
     "kind": "dollar"
   }
 ]
