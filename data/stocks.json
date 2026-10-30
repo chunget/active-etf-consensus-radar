@@ -10,8 +10,8 @@
     ],
     "size": "mega",
     "prior": 59,
-    "flow1": 1.04,
-    "flow20": -2.02,
+    "flow1": -0.41,
+    "flow20": -2.42,
     "valueTilt": 3
   },
   {
@@ -24,9 +24,9 @@
       "AI Server"
     ],
     "size": "mid",
-    "prior": 49,
-    "flow1": 2.72,
-    "flow20": -9.56,
+    "prior": 50,
+    "flow1": -3.42,
+    "flow20": -8.68,
     "valueTilt": 1
   },
   {
@@ -39,9 +39,9 @@
       "AI Server"
     ],
     "size": "mid",
-    "prior": 51,
-    "flow1": 8.79,
-    "flow20": -7.88,
+    "prior": 52,
+    "flow1": 0.47,
+    "flow20": -7.11,
     "valueTilt": 0
   },
   {
@@ -54,9 +54,9 @@
       "AI先進製程"
     ],
     "size": "mid",
-    "prior": 63,
-    "flow1": 8.73,
-    "flow20": 0.8,
+    "prior": 62,
+    "flow1": -3.16,
+    "flow20": -0.14,
     "valueTilt": -2
   },
   {
@@ -69,9 +69,9 @@
       "AI Server"
     ],
     "size": "large",
-    "prior": 36,
-    "flow1": 2.65,
-    "flow20": -18.85,
+    "prior": 35,
+    "flow1": -4.52,
+    "flow20": -19.35,
     "valueTilt": 2
   },
   {
@@ -83,9 +83,9 @@
       "AI Server"
     ],
     "size": "large",
-    "prior": 58,
-    "flow1": 0.76,
-    "flow20": -2.51,
+    "prior": 54,
+    "flow1": -3.64,
+    "flow20": -5.5,
     "valueTilt": 1
   },
   {
@@ -98,9 +98,9 @@
       "手機復甦"
     ],
     "size": "mega",
-    "prior": 63,
-    "flow1": 1.62,
-    "flow20": 0.4,
+    "prior": 61,
+    "flow1": -1.39,
+    "flow20": -1,
     "valueTilt": 5
   },
   {
@@ -114,8 +114,8 @@
     ],
     "size": "large",
     "prior": 72,
-    "flow1": -0.62,
-    "flow20": 7.33,
+    "flow1": 0.62,
+    "flow20": 6.93,
     "valueTilt": 8
   },
   {
@@ -129,8 +129,8 @@
     ],
     "size": "large",
     "prior": 68,
-    "flow1": 1.32,
-    "flow20": 4.52,
+    "flow1": 0.87,
+    "flow20": 4.48,
     "valueTilt": 9
   },
   {
@@ -143,8 +143,8 @@
     ],
     "size": "large",
     "prior": 95,
-    "flow1": 7.23,
-    "flow20": 34.03,
+    "flow1": -2.19,
+    "flow20": 26.32,
     "valueTilt": 7
   },
   {
@@ -156,9 +156,9 @@
       "AI先進製程"
     ],
     "size": "mid",
-    "prior": 57,
-    "flow1": 9.97,
-    "flow20": -3.32,
+    "prior": 50,
+    "flow1": -10,
+    "flow20": -8.28,
     "valueTilt": 0
   },
   {
@@ -171,9 +171,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 54,
-    "flow1": -1.17,
-    "flow20": -5.69,
+    "prior": 52,
+    "flow1": -0.8,
+    "flow20": -7.45,
     "valueTilt": -3
   },
   {
@@ -186,8 +186,8 @@
     ],
     "size": "mega",
     "prior": 67,
-    "flow1": -0.06,
-    "flow20": 3.53,
+    "flow1": -0.16,
+    "flow20": 3.38,
     "valueTilt": 2
   },
   {
@@ -200,9 +200,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 62,
-    "flow1": 2.77,
-    "flow20": 0.18,
+    "prior": 63,
+    "flow1": -1.94,
+    "flow20": 0.4,
     "valueTilt": 0
   },
   {
@@ -215,9 +215,9 @@
       "能源電力"
     ],
     "size": "large",
-    "prior": 82,
-    "flow1": -0.8,
-    "flow20": 13.93,
+    "prior": 81,
+    "flow1": -0.23,
+    "flow20": 13.89,
     "valueTilt": -4
   },
   {
@@ -230,9 +230,9 @@
       "航太"
     ],
     "size": "mid",
-    "prior": 69,
-    "flow1": -0.97,
-    "flow20": 5.22,
+    "prior": 67,
+    "flow1": -0.2,
+    "flow20": 3.36,
     "valueTilt": -2
   },
   {
@@ -245,9 +245,9 @@
       "AI Server"
     ],
     "size": "large",
-    "prior": 51,
-    "flow1": 5.86,
-    "flow20": -7.67,
+    "prior": 41,
+    "flow1": -4.98,
+    "flow20": -14.85,
     "valueTilt": 4
   },
   {
@@ -259,9 +259,9 @@
       "金融"
     ],
     "size": "mega",
-    "prior": 66,
-    "flow1": 1.05,
-    "flow20": 3.07,
+    "prior": 67,
+    "flow1": 1.26,
+    "flow20": 3.64,
     "valueTilt": 8
   },
   {
@@ -273,9 +273,9 @@
       "航太"
     ],
     "size": "large",
-    "prior": 57,
-    "flow1": 1.17,
-    "flow20": -3.43,
+    "prior": 63,
+    "flow1": 3.96,
+    "flow20": 0.36,
     "valueTilt": 3
   },
   {
@@ -287,9 +287,9 @@
       "能源電力"
     ],
     "size": "large",
-    "prior": 64,
-    "flow1": -0.35,
-    "flow20": 1.6,
+    "prior": 65,
+    "flow1": 2.52,
+    "flow20": 2.19,
     "valueTilt": 2
   }
 ]
