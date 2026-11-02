@@ -1,88 +1,88 @@
 {
-  "date": "2026/10/29",
-  "period": "09/29-10/29",
+  "date": "2026/10/30",
+  "period": "09/30-10/30",
   "increases": [
     {
       "code": "1303",
       "name": "南亞",
-      "change": 26.32
+      "change": 15.85
     },
     {
       "code": "TSLA",
       "name": "Tesla",
-      "change": 13.89
+      "change": 7.88
     },
     {
       "code": "2881",
       "name": "富邦金",
-      "change": 6.93
+      "change": 6.95
     },
     {
       "code": "2882",
       "name": "國泰金",
-      "change": 4.48
+      "change": 4.5
     },
     {
       "code": "JPM",
       "name": "JPMorgan Chase",
-      "change": 3.64
-    },
-    {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "change": 3.38
-    },
-    {
-      "code": "PLTR",
-      "name": "Palantir",
-      "change": 3.36
+      "change": 1.91
     },
     {
       "code": "CEG",
       "name": "Constellation Energy",
-      "change": 2.19
+      "change": 1.9
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "change": 0.85
+    },
+    {
+      "code": "GE",
+      "name": "GE Aerospace",
+      "change": -2.36
     }
   ],
   "decreases": [
     {
       "code": "2308",
       "name": "台達電",
-      "change": -19.35
+      "change": -29.37
     },
     {
       "code": "MU",
       "name": "Micron",
-      "change": -14.85
-    },
-    {
-      "code": "3017",
-      "name": "奇鋐",
-      "change": -8.68
-    },
-    {
-      "code": "6510",
-      "name": "精測",
-      "change": -8.28
+      "change": -17.68
     },
     {
       "code": "NVDA",
       "name": "NVIDIA",
-      "change": -7.45
+      "change": -12.53
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "change": -9.9
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "change": -8.42
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "change": -8.18
+    },
+    {
+      "code": "6510",
+      "name": "精測",
+      "change": -7.99
     },
     {
       "code": "3653",
       "name": "健策",
-      "change": -7.11
-    },
-    {
-      "code": "2382",
-      "name": "廣達",
-      "change": -5.5
-    },
-    {
-      "code": "2330",
-      "name": "台積電",
-      "change": -2.42
+      "change": -7.13
     }
   ]
 }
