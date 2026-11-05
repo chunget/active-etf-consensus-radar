@@ -9,9 +9,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 51,
-    "flow1": -1.5,
-    "flow20": -8.2,
+    "prior": 45,
+    "flow1": -1.53,
+    "flow20": -12.23,
     "valueTilt": 3
   },
   {
@@ -24,9 +24,9 @@
       "AI Server"
     ],
     "size": "mid",
-    "prior": 41,
-    "flow1": -4.08,
-    "flow20": -14.68,
+    "prior": 32,
+    "flow1": -3.92,
+    "flow20": -21.34,
     "valueTilt": 1
   },
   {
@@ -39,9 +39,9 @@
       "AI Server"
     ],
     "size": "mid",
-    "prior": 46,
-    "flow1": -4.51,
-    "flow20": -11.25,
+    "prior": 47,
+    "flow1": 6.88,
+    "flow20": -10.48,
     "valueTilt": 0
   },
   {
@@ -54,9 +54,9 @@
       "AI先進製程"
     ],
     "size": "mid",
-    "prior": 37,
-    "flow1": -7.51,
-    "flow20": -17.59,
+    "prior": 35,
+    "flow1": 1.27,
+    "flow20": -19.49,
     "valueTilt": -2
   },
   {
@@ -70,8 +70,8 @@
     ],
     "size": "large",
     "prior": 25,
-    "flow1": -6.27,
-    "flow20": -32.63,
+    "flow1": -3.94,
+    "flow20": -39.15,
     "valueTilt": 2
   },
   {
@@ -83,9 +83,9 @@
       "AI Server"
     ],
     "size": "large",
-    "prior": 53,
-    "flow1": -2.04,
-    "flow20": -6.17,
+    "prior": 50,
+    "flow1": -2.89,
+    "flow20": -8.61,
     "valueTilt": 1
   },
   {
@@ -98,9 +98,9 @@
       "手機復甦"
     ],
     "size": "mega",
-    "prior": 59,
-    "flow1": -2.19,
-    "flow20": -2.19,
+    "prior": 54,
+    "flow1": -2.24,
+    "flow20": -5.51,
     "valueTilt": 5
   },
   {
@@ -113,9 +113,9 @@
       "降息交易"
     ],
     "size": "large",
-    "prior": 65,
-    "flow1": -3.45,
-    "flow20": 2.33,
+    "prior": 64,
+    "flow1": 0.32,
+    "flow20": 1.64,
     "valueTilt": 8
   },
   {
@@ -128,9 +128,9 @@
       "降息交易"
     ],
     "size": "large",
-    "prior": 64,
-    "flow1": -2.59,
-    "flow20": 1.35,
+    "prior": 61,
+    "flow1": -1.77,
+    "flow20": -0.45,
     "valueTilt": 9
   },
   {
@@ -142,9 +142,9 @@
       "循環復甦"
     ],
     "size": "large",
-    "prior": 68,
-    "flow1": -9.97,
-    "flow20": 4.23,
+    "prior": 57,
+    "flow1": 2.03,
+    "flow20": -3.32,
     "valueTilt": 7
   },
   {
@@ -156,9 +156,9 @@
       "AI先進製程"
     ],
     "size": "mid",
-    "prior": 42,
-    "flow1": -7.89,
-    "flow20": -14.5,
+    "prior": 47,
+    "flow1": 5.52,
+    "flow20": -10.79,
     "valueTilt": 0
   },
   {
@@ -171,9 +171,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 43,
-    "flow1": 2.29,
-    "flow20": -13.61,
+    "prior": 40,
+    "flow1": -3.17,
+    "flow20": -15.72,
     "valueTilt": -3
   },
   {
@@ -185,9 +185,9 @@
       "AI新經濟"
     ],
     "size": "mega",
-    "prior": 60,
-    "flow1": 2.74,
-    "flow20": -1.57,
+    "prior": 69,
+    "flow1": 6.68,
+    "flow20": 4.92,
     "valueTilt": 2
   },
   {
@@ -200,9 +200,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 46,
-    "flow1": 3.07,
-    "flow20": -11.62,
+    "prior": 43,
+    "flow1": -2,
+    "flow20": -13.55,
     "valueTilt": 0
   },
   {
@@ -215,9 +215,9 @@
       "能源電力"
     ],
     "size": "large",
-    "prior": 69,
-    "flow1": -1.32,
-    "flow20": 4.68,
+    "prior": 65,
+    "flow1": -3.34,
+    "flow20": 1.95,
     "valueTilt": -4
   },
   {
@@ -230,9 +230,9 @@
       "航太"
     ],
     "size": "mid",
-    "prior": 50,
-    "flow1": -1.65,
-    "flow20": -8.68,
+    "prior": 46,
+    "flow1": -2.11,
+    "flow20": -11.55,
     "valueTilt": -2
   },
   {
@@ -245,9 +245,9 @@
       "AI Server"
     ],
     "size": "large",
-    "prior": 37,
-    "flow1": 2.58,
-    "flow20": -18.2,
+    "prior": 25,
+    "flow1": -7,
+    "flow20": -26.9,
     "valueTilt": 4
   },
   {
@@ -259,9 +259,9 @@
       "金融"
     ],
     "size": "mega",
-    "prior": 65,
-    "flow1": -0.76,
-    "flow20": 2.02,
+    "prior": 72,
+    "flow1": 4.18,
+    "flow20": 6.84,
     "valueTilt": 8
   },
   {
@@ -273,9 +273,9 @@
       "航太"
     ],
     "size": "large",
-    "prior": 67,
-    "flow1": 1.55,
-    "flow20": 3.65,
+    "prior": 74,
+    "flow1": 2.74,
+    "flow20": 8.51,
     "valueTilt": 3
   },
   {
@@ -287,9 +287,9 @@
       "能源電力"
     ],
     "size": "large",
-    "prior": 45,
-    "flow1": 2.39,
-    "flow20": -12.32,
+    "prior": 37,
+    "flow1": -6.71,
+    "flow20": -17.98,
     "valueTilt": 2
   }
 ]
