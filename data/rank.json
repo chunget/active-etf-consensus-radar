@@ -1,88 +1,88 @@
 {
-  "date": "2026/11/04",
-  "period": "10/05-11/04",
+  "date": "2026/11/05",
+  "period": "10/06-11/05",
   "increases": [
     {
       "code": "GE",
       "name": "GE Aerospace",
-      "change": 8.51
-    },
-    {
-      "code": "JPM",
-      "name": "JPMorgan Chase",
-      "change": 6.84
+      "change": 2.98
     },
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "change": 4.92
+      "change": 2.55
     },
     {
-      "code": "TSLA",
-      "name": "Tesla",
-      "change": 1.95
+      "code": "JPM",
+      "name": "JPMorgan Chase",
+      "change": 1.79
     },
     {
       "code": "2881",
       "name": "富邦金",
-      "change": 1.64
+      "change": 0.65
     },
     {
       "code": "2882",
       "name": "國泰金",
-      "change": -0.45
-    },
-    {
-      "code": "1303",
-      "name": "南亞",
-      "change": -3.32
+      "change": 0
     },
     {
       "code": "2317",
       "name": "鴻海",
-      "change": -5.51
+      "change": -8.2
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla",
+      "change": -8.35
+    },
+    {
+      "code": "2382",
+      "name": "廣達",
+      "change": -10.04
     }
   ],
   "decreases": [
     {
       "code": "2308",
       "name": "台達電",
-      "change": -39.15
+      "change": -44.88
     },
     {
       "code": "MU",
       "name": "Micron",
-      "change": -26.9
+      "change": -36.62
     },
     {
       "code": "3017",
       "name": "奇鋐",
-      "change": -21.34
+      "change": -30.39
     },
     {
       "code": "3661",
       "name": "世芯-KY",
-      "change": -19.49
+      "change": -29.19
     },
     {
-      "code": "CEG",
-      "name": "Constellation Energy",
-      "change": -17.98
+      "code": "PLTR",
+      "name": "Palantir",
+      "change": -22.03
     },
     {
       "code": "NVDA",
       "name": "NVIDIA",
-      "change": -15.72
+      "change": -21.21
     },
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "change": -13.55
+      "change": -19.05
     },
     {
-      "code": "2330",
-      "name": "台積電",
-      "change": -12.23
+      "code": "6510",
+      "name": "精測",
+      "change": -18.33
     }
   ]
 }
