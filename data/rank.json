@@ -1,88 +1,88 @@
 {
-  "date": "2026/11/05",
-  "period": "10/06-11/05",
+  "date": "2026/11/06",
+  "period": "10/07-11/06",
   "increases": [
     {
       "code": "GE",
       "name": "GE Aerospace",
-      "change": 2.98
-    },
-    {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "change": 2.55
+      "change": 4.88
     },
     {
       "code": "JPM",
       "name": "JPMorgan Chase",
-      "change": 1.79
+      "change": 0.45
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "change": -0.83
     },
     {
       "code": "2881",
       "name": "富邦金",
-      "change": 0.65
+      "change": -4.82
     },
     {
       "code": "2882",
       "name": "國泰金",
-      "change": 0
-    },
-    {
-      "code": "2317",
-      "name": "鴻海",
-      "change": -8.2
+      "change": -6.19
     },
     {
       "code": "TSLA",
       "name": "Tesla",
-      "change": -8.35
+      "change": -6.4
+    },
+    {
+      "code": "2317",
+      "name": "鴻海",
+      "change": -10.91
     },
     {
       "code": "2382",
       "name": "廣達",
-      "change": -10.04
+      "change": -13.28
     }
   ],
   "decreases": [
     {
       "code": "2308",
       "name": "台達電",
-      "change": -44.88
-    },
-    {
-      "code": "MU",
-      "name": "Micron",
-      "change": -36.62
+      "change": -46.98
     },
     {
       "code": "3017",
       "name": "奇鋐",
-      "change": -30.39
+      "change": -34.84
+    },
+    {
+      "code": "MU",
+      "name": "Micron",
+      "change": -32.93
     },
     {
       "code": "3661",
       "name": "世芯-KY",
-      "change": -29.19
+      "change": -32.46
     },
     {
-      "code": "PLTR",
-      "name": "Palantir",
-      "change": -22.03
-    },
-    {
-      "code": "NVDA",
-      "name": "NVIDIA",
-      "change": -21.21
-    },
-    {
-      "code": "AVGO",
-      "name": "Broadcom",
-      "change": -19.05
+      "code": "1303",
+      "name": "南亞",
+      "change": -23.73
     },
     {
       "code": "6510",
       "name": "精測",
-      "change": -18.33
+      "change": -23.68
+    },
+    {
+      "code": "PLTR",
+      "name": "Palantir",
+      "change": -23.28
+    },
+    {
+      "code": "3653",
+      "name": "健策",
+      "change": -23.22
     }
   ]
 }
