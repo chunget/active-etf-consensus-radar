@@ -1,88 +1,88 @@
 {
-  "date": "2026/11/09",
-  "period": "10/08-11/09",
+  "date": "2026/11/10",
+  "period": "10/12-11/10",
   "increases": [
     {
       "code": "GE",
       "name": "GE Aerospace",
-      "change": 8.72
+      "change": 9.84
     },
     {
       "code": "JPM",
       "name": "JPMorgan Chase",
-      "change": 2.33
-    },
-    {
-      "code": "2882",
-      "name": "國泰金",
-      "change": 0.91
-    },
-    {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "change": 0.74
-    },
-    {
-      "code": "2881",
-      "name": "富邦金",
-      "change": 0.33
+      "change": 3.21
     },
     {
       "code": "TSLA",
       "name": "Tesla",
-      "change": 0.01
+      "change": 1.21
     },
     {
       "code": "2317",
       "name": "鴻海",
-      "change": -4.02
+      "change": -1.23
     },
     {
-      "code": "CEG",
-      "name": "Constellation Energy",
-      "change": -6.06
+      "code": "MSFT",
+      "name": "Microsoft",
+      "change": -1.89
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
+      "change": -2.65
+    },
+    {
+      "code": "2881",
+      "name": "富邦金",
+      "change": -3.47
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "change": -4.62
     }
   ],
   "decreases": [
     {
       "code": "2308",
       "name": "台達電",
-      "change": -40.97
-    },
-    {
-      "code": "3661",
-      "name": "世芯-KY",
-      "change": -28.42
-    },
-    {
-      "code": "3017",
-      "name": "奇鋐",
-      "change": -26.16
-    },
-    {
-      "code": "MU",
-      "name": "Micron",
-      "change": -25.86
-    },
-    {
-      "code": "6510",
-      "name": "精測",
-      "change": -23.64
-    },
-    {
-      "code": "3653",
-      "name": "健策",
-      "change": -21.35
+      "change": -32.89
     },
     {
       "code": "NVDA",
       "name": "NVIDIA",
-      "change": -21.05
+      "change": -26.09
+    },
+    {
+      "code": "MU",
+      "name": "Micron",
+      "change": -23.92
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "change": -22.18
+    },
+    {
+      "code": "3653",
+      "name": "健策",
+      "change": -19.13
     },
     {
       "code": "PLTR",
       "name": "Palantir",
       "change": -19.04
+    },
+    {
+      "code": "6510",
+      "name": "精測",
+      "change": -18.57
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "change": -17.58
     }
   ]
 }
