@@ -9,9 +9,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 50,
-    "flow1": -5.74,
-    "flow20": -8.47,
+    "prior": 48,
+    "flow1": -2.03,
+    "flow20": -10.33,
     "valueTilt": 3
   },
   {
@@ -24,9 +24,9 @@
       "AI Server"
     ],
     "size": "mid",
-    "prior": 38,
-    "flow1": -9.87,
-    "flow20": -17.35,
+    "prior": 26,
+    "flow1": -9.85,
+    "flow20": -25.6,
     "valueTilt": 1
   },
   {
@@ -40,8 +40,8 @@
     ],
     "size": "mid",
     "prior": 25,
-    "flow1": -9.92,
-    "flow20": -28.45,
+    "flow1": -9.97,
+    "flow20": -33.92,
     "valueTilt": 0
   },
   {
@@ -54,9 +54,9 @@
       "AI先進製程"
     ],
     "size": "mid",
-    "prior": 61,
-    "flow1": -8.96,
-    "flow20": -0.68,
+    "prior": 57,
+    "flow1": -1.78,
+    "flow20": -3.23,
     "valueTilt": -2
   },
   {
@@ -70,8 +70,8 @@
     ],
     "size": "large",
     "prior": 25,
-    "flow1": -9.68,
-    "flow20": -31.5,
+    "flow1": -5.8,
+    "flow20": -35.67,
     "valueTilt": 2
   },
   {
@@ -83,9 +83,9 @@
       "AI Server"
     ],
     "size": "large",
-    "prior": 37,
-    "flow1": -4.34,
-    "flow20": -17.86,
+    "prior": 39,
+    "flow1": -0.76,
+    "flow20": -16.53,
     "valueTilt": 1
   },
   {
@@ -98,9 +98,9 @@
       "手機復甦"
     ],
     "size": "mega",
-    "prior": 47,
-    "flow1": -9.34,
-    "flow20": -10.45,
+    "prior": 50,
+    "flow1": 0.23,
+    "flow20": -8.56,
     "valueTilt": 5
   },
   {
@@ -113,9 +113,9 @@
       "降息交易"
     ],
     "size": "large",
-    "prior": 54,
-    "flow1": -5.88,
-    "flow20": -5.88,
+    "prior": 55,
+    "flow1": -0.99,
+    "flow20": -5.05,
     "valueTilt": 8
   },
   {
@@ -128,9 +128,9 @@
       "降息交易"
     ],
     "size": "large",
-    "prior": 55,
-    "flow1": -3.93,
-    "flow20": -5.17,
+    "prior": 58,
+    "flow1": 0.91,
+    "flow20": -3.06,
     "valueTilt": 9
   },
   {
@@ -142,9 +142,9 @@
       "循環復甦"
     ],
     "size": "large",
-    "prior": 47,
-    "flow1": -9.87,
-    "flow20": -10.75,
+    "prior": 43,
+    "flow1": -4.56,
+    "flow20": -13.84,
     "valueTilt": 7
   },
   {
@@ -156,9 +156,9 @@
       "AI先進製程"
     ],
     "size": "mid",
-    "prior": 57,
-    "flow1": -9.9,
-    "flow20": -3.69,
+    "prior": 42,
+    "flow1": -9.15,
+    "flow20": -14.02,
     "valueTilt": 0
   },
   {
@@ -172,8 +172,8 @@
     ],
     "size": "mega",
     "prior": 25,
-    "flow1": -4.12,
-    "flow20": -28.08,
+    "flow1": -0.44,
+    "flow20": -28.18,
     "valueTilt": -3
   },
   {
@@ -185,9 +185,9 @@
       "AI新經濟"
     ],
     "size": "mega",
-    "prior": 58,
-    "flow1": -1.12,
-    "flow20": -2.91,
+    "prior": 55,
+    "flow1": -2.27,
+    "flow20": -4.82,
     "valueTilt": 2
   },
   {
@@ -200,9 +200,9 @@
       "AI Server"
     ],
     "size": "mega",
-    "prior": 61,
-    "flow1": -3.92,
-    "flow20": -0.36,
+    "prior": 65,
+    "flow1": 2.46,
+    "flow20": 2.16,
     "valueTilt": 0
   },
   {
@@ -215,9 +215,9 @@
       "能源電力"
     ],
     "size": "large",
-    "prior": 66,
-    "flow1": -2.69,
-    "flow20": 3.17,
+    "prior": 64,
+    "flow1": 0.1,
+    "flow20": 1.71,
     "valueTilt": -4
   },
   {
@@ -230,9 +230,9 @@
       "航太"
     ],
     "size": "mid",
-    "prior": 38,
-    "flow1": -4.52,
-    "flow20": -17.39,
+    "prior": 36,
+    "flow1": -2.39,
+    "flow20": -18.71,
     "valueTilt": -2
   },
   {
@@ -246,8 +246,8 @@
     ],
     "size": "large",
     "prior": 33,
-    "flow1": -7.62,
-    "flow20": -20.54,
+    "flow1": -0.92,
+    "flow20": -20.5,
     "valueTilt": 4
   },
   {
@@ -259,9 +259,9 @@
       "金融"
     ],
     "size": "mega",
-    "prior": 64,
-    "flow1": -2.31,
-    "flow20": 1.4,
+    "prior": 60,
+    "flow1": -2.44,
+    "flow20": -1.58,
     "valueTilt": 8
   },
   {
@@ -273,9 +273,9 @@
       "航太"
     ],
     "size": "large",
-    "prior": 68,
-    "flow1": -2,
-    "flow20": 4.47,
+    "prior": 74,
+    "flow1": 0.38,
+    "flow20": 8.85,
     "valueTilt": 3
   },
   {
@@ -287,9 +287,9 @@
       "能源電力"
     ],
     "size": "large",
-    "prior": 70,
-    "flow1": -0.7,
-    "flow20": 5.72,
+    "prior": 67,
+    "flow1": -3.51,
+    "flow20": 3.72,
     "valueTilt": 2
   }
 ]
