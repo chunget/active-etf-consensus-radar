@@ -1,6 +1,6 @@
 {
-  "date": "2026/11/25",
-  "period": "10/28-11/25",
+  "date": "2026/11/26",
+  "period": "10/28-11/26",
   "increases": [
     {
       "code": "GE",
@@ -10,7 +10,7 @@
     {
       "code": "3661",
       "name": "世芯-KY",
-      "change": -5.13
+      "change": 1.49
     },
     {
       "code": "TSLA",
@@ -33,14 +33,14 @@
       "change": -8.7
     },
     {
-      "code": "2330",
-      "name": "台積電",
-      "change": -11.34
+      "code": "3017",
+      "name": "奇鋐",
+      "change": -9.98
     },
     {
       "code": "2882",
       "name": "國泰金",
-      "change": -12.99
+      "change": -10.3
     }
   ],
   "decreases": [
@@ -50,39 +50,39 @@
       "change": -38.85
     },
     {
-      "code": "3653",
-      "name": "健策",
-      "change": -34.59
-    },
-    {
-      "code": "2308",
-      "name": "台達電",
-      "change": -31.94
-    },
-    {
       "code": "NVDA",
       "name": "NVIDIA",
       "change": -30.68
     },
     {
-      "code": "6510",
-      "name": "精測",
-      "change": -29.69
+      "code": "3653",
+      "name": "健策",
+      "change": -28.42
+    },
+    {
+      "code": "2308",
+      "name": "台達電",
+      "change": -24.32
     },
     {
       "code": "1303",
       "name": "南亞",
-      "change": -29
+      "change": -21.79
     },
     {
-      "code": "2382",
-      "name": "廣達",
-      "change": -20.91
+      "code": "PLTR",
+      "name": "Palantir",
+      "change": -16.88
     },
     {
-      "code": "3017",
-      "name": "奇鋐",
-      "change": -20.84
+      "code": "6510",
+      "name": "精測",
+      "change": -15.8
+    },
+    {
+      "code": "2881",
+      "name": "富邦金",
+      "change": -14.51
     }
   ]
 }
